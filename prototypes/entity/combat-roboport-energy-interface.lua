@@ -13,33 +13,23 @@ data:extend(
 	selectable_in_game = false,
 	allow_copy_paste = false,
 	
-	collision_box = {{0, 0}, {0, 0}},
+	collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
     selection_box = {{0, 0}, {0, 0}},
+	tile_height = 4,
+	tile_width = 4,
 	
 	-- EntityWithHealth
-	max_health = 1000000,
-	healing_per_tick = 1000000,
-    resistances =
-    {
-	  { type = "physical", percent = 100 },
-	  { type = "impact", percent = 100 },
-      { type = "fire", percent = 100 },
-	  { type = "acid", percent = 100 },
-	  { type = "poison", percent = 100 },
-	  { type = "explosion", percent = 100 },
-	  { type = "laser", percent = 100 }
-    },
+	max_health = 100,
 	create_ghost_on_death = false,
 	alert_when_damaged = false,
 	
 	-- ElectricEnergyInterface
-	energy_usage = "1MW",
 	energy_source =
     {
       type = "electric",
-      buffer_capacity = "2MJ",
-      input_flow_limit = "20MW",
-      drain = "150kW",
+      buffer_capacity = "1MJ",
+      input_flow_limit = "1MW",
+      drain = "1MW",
       usage_priority = "primary-input"
     },
 	picture = { filename = "__combat-roboports__/graphics/empty.png", size = 16 }
