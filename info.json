@@ -1,0 +1,11 @@
+{
+    "name": "combat-roboports",
+    "version": "1.0.0",
+    "title": "Combat Roboports",
+    "author": "Artentus",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "Adds a new roboport that automatically deploys combat robots."
+}
