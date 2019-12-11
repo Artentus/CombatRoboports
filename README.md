@@ -6,3 +6,6 @@ The mod is compatible with Bob's Mods. When using Bob's Logistics I recommend to
 
 **Known problems:**
 - No animations on the combat roboport. This will be resolved as soon as the functionality is added to the modding API (implementation currently pending).
+
+**Mod Portal:**  
+https://mods.factorio.com/mod/combat-roboports
