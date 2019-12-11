@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2019.12.11
+  Features:
+    - Now compatible with Bob's Mods.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2019.12.08
+  Info:
+    - Changelog now available
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2019.12.08
+  Changes:
+    - Changed how combat roboport deploys robots. Now 1 at a time will be deployed but at a faster speed.
+  Balancing:
+    - Increased range of combat roboport by 20% and range of area defense robots by 60%.
+    - Increased power consumption of combat roboport to 2.5MW.
+    - Increased damage of area defense robots by 10%.
+    - Area defense robots ammo-item now holds 6 robots. Recipe has been adjusted to account for the additional robot.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2019.12.06
+  Bugfixes:
+    - Fixed electricity hitbox of combat roboport to match its appearence and selection box.
+    - Fixed crash when another mod deletes a surface.
+  Optimisations:
+    - Decreased electricity update rate of combat roboport.
+    - Performance improvements throughout the entire code.
+  Balancing:
+    - Adjusted power consumption of combat roboport to be 1MW min and max.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2019.12.06
+  Info:
+    - Initial release
+  Locale:
+    - English, German, are available.

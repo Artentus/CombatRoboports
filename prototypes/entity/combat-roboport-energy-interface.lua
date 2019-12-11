@@ -27,9 +27,9 @@ data:extend(
 	energy_source =
     {
       type = "electric",
-      buffer_capacity = "1MJ",
-      input_flow_limit = "1MW",
-      drain = "1MW",
+      buffer_capacity = "2.5MJ",
+      input_flow_limit = "2.5MW",
+      drain = "2.5MW",
       usage_priority = "primary-input"
     },
 	picture = { filename = "__combat-roboports__/graphics/empty.png", size = 16 }

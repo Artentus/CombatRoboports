@@ -39,8 +39,8 @@ data:extend(
       type = "beam",
       ammo_category = "combat-robot-laser",
       cooldown = 20,
-      damage_modifier = 1.5,
-      range = 15,
+      damage_modifier = 1.6,
+      range = 24,
       sound = make_laser_sounds(),
       ammo_type =
       {
@@ -52,7 +52,7 @@ data:extend(
           {
             type = "beam",
             beam = "laser-beam",
-            max_length = 15,
+            max_length = 24,
             duration = 20,
             --starting_speed = 0.3
           }

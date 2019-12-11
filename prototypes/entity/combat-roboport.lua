@@ -47,9 +47,9 @@ data:extend(
 	attack_parameters =
     {
 	  type = "projectile",
-	  range = 30,
-	  cooldown = 60 * 20, -- in ticks (1s = 60t)
-	  warmup = 60 * 2,
+	  range = 36,
+	  cooldown = 60 * 4, -- in ticks (1s = 60t)
+	  warmup = 60 * 1,
       ammo_category = "combat-robot",
       sound = { filename = "__base__/sound/roboport-door.ogg", volume = 1.0 }
     },

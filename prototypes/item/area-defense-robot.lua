@@ -20,7 +20,7 @@ data:extend(
         }
       }
     },
-    magazine_size = 1,
+    magazine_size = 6,
     subgroup = "ammo",
     order = "f[combat-robot]-a[area-defense]",
     stack_size = 50

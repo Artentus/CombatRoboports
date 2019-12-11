@@ -29,8 +29,7 @@ data:extend(
           {
             type = "create-entity",
             show_in_tooltip = true,
-            entity_name = "area-defense-robot",
-            offsets = {{-0.7, -0.7},{-0.7, 0.7},{0.7, -0.7},{0.7, 0.7},{0, 0}}
+            entity_name = "area-defense-robot"
           }
         }
       }
