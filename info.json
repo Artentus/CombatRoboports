@@ -1,16 +1,16 @@
 {
     "name": "combat-roboports",
-    "version": "1.2.0",
+    "version": "1.2.3",
     "title": "Combat Roboports",
     "author": "Artentus",
     "contact": "https://mods.factorio.com/mod/combat-roboports/discussion",
     "homepage": "https://mods.factorio.com/mod/combat-roboports",
-    "factorio_version": "0.17",
+    "factorio_version": "0.18",
     "dependencies":
 	[
-		"base >= 0.17",
-		"? boblogistics >= 0.17.17",
-		"? bobwarfare >= 0.17.11",
+		"base >= 0.18.14",
+		"? boblogistics >= 0.18.8",
+		"? bobwarfare >= 0.18.4",
 		"(?) bobelectronics",
 		"(?) bobtech"
 	],

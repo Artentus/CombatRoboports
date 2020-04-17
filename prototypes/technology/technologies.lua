@@ -36,17 +36,29 @@ if not mods["boblogistics"] then
   data.raw.technology["logistic-robotics"].effects =
   {
     {
-      type = "unlock-recipe",
-      recipe = "logistic-chest-passive-provider"
-    },
-    {
-      type = "unlock-recipe",
-      recipe = "logistic-chest-storage"
-    },
-    {
-      type = "unlock-recipe",
-      recipe = "logistic-robot"
-    }
+        type = "unlock-recipe",
+        recipe = "logistic-chest-passive-provider"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "logistic-chest-storage"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "logistic-robot"
+      },
+      {
+        type = "character-logistic-requests",
+        modifier = true
+      },
+      {
+        type = "auto-character-logistic-trash-slots",
+        modifier = true
+      },
+      {
+        type = "character-logistic-trash-slots",
+        modifier = 30
+      }
   }
 end
 
